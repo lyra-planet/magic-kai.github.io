@@ -229,6 +229,21 @@ body::before {
     opacity: 1;
   }
 }
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur"), auto;
+}
+a {
+  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), auto;
+}
+a:hover {
+  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), auto;
+}
+.hty-icon-button {
+  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), pointer;
+}
+input {
+  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur"), auto;
+}
 :root {
   --banner-line-color: #000;
   --banner-char-color: #000;
@@ -782,7 +797,7 @@ body::before {
 }
 .wordcloud #wordcloud-canvas,
 .wordcloud #wordcloud-sidebar-canvas {
-  cursor: url("$cursor-pointer"), pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), pointer;
 }
 .wordcloud #wordbox {
   pointer-events: none;
@@ -1156,7 +1171,7 @@ body::before {
   transition-property: all;
   transition-duration: 0.3s;
   transition-delay: 0s;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.2);
   box-shadow: 0 0 10px rgba(255,255,255,0.1);
 /* tag 容器 */
 }
@@ -2025,7 +2040,7 @@ body::before {
   }
   :root:not([data-user-color-scheme]) .post-card {
     color: #fff;
-    background-color: rgba(27,31,46,0.9);
+    background-color: rgba(27,31,46,0.2);
     box-shadow: 0 1px 8px rgba(27,31,46,0.1);
   }
   :root:not([data-user-color-scheme]) .page-number-basic {
@@ -2092,7 +2107,7 @@ body::before {
 }
 [data-user-color-scheme='dark'] .post-card {
   color: #fff;
-  background-color: rgba(27,31,46,0.9);
+  background-color: rgba(27,31,46,0.2);
   box-shadow: 0 1px 8px rgba(27,31,46,0.1);
 }
 [data-user-color-scheme='dark'] .page-number-basic {
