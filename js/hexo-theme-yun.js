@@ -23,3 +23,4 @@ function initPage() {
 
 Yun.boot.copyright();
 document.addEventListener("DOMContentLoaded", initPage);
+
